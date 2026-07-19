@@ -2,10 +2,11 @@
 iceland was a nice man now im cold
 ## links
 - [gas](https://gasvaktin.is)
-### camping
-- [landmannalaugar](https://vinna.fi.is/en/boka/)
+- **camping:**
+  - Day 1: 
+  - Day 4: [landmannalaugar](https://vinna.fi.is/en/boka/)
 ## things to do 
--goon
+- goon
 
 ## itinerary
 - [Day 1 (6h41)](https://www.google.com/maps/place/Hvitserkur/@65.1845021,-24.8792967,6.88z/data=!4m54!1m47!4m46!1m6!1m2!1s0x48d674b9eedcedc3:0xec912ca230d26071!2sReykjav%C3%ADk,+Iceland!2m2!1d-21.9407552!2d64.1469868!1m6!1m2!1s0x492a856d6d692567:0xaed98fa235ca21bb!2sSaxh%C3%B3ll+Crater,+V32G%2B95F,+356+Hellissandur,+Iceland!2m2!1d-23.924576!2d64.850947!1m6!1m2!1s0x48d57bb2877d00d3:0x263186a28a338d0!2sKirkjufellsfoss,+WMGQ%2BFFJ,+351+Grundarfj%C3%B6r%C3%B0ur,+Iceland!2m2!1d-23.3113649!2d64.9262179!1m16!1m2!1s0x48d57101c02d82c7:0xb99315d315935040!2zS29sZ3JhZmFyZmrDtnLDsHVyLCBYVjhHKzk2USwgMzUxIEJqYXJuYXJow7ZmbiwgSWNlbGFuZA!2m2!1d-23.1244029!2d64.9659645!3m4!1m2!1d-22.240472!2d65.0306755!3s0x48d506b6250aa53d:0xa3c251b0c034e819!3m4!1m2!1d-21.939449!2d65.0109092!3s0x48d4ff8a8b9152ed:0x251355e91f301c30!1m6!1m2!1s0x48d35df4a4ba65c3:0x3679678406a4e5fc!2sHvitserkur,+711,+Iceland!2m2!1d-20.6352441!2d65.6063761!3e0!3m5!1s0x48d35df4a4ba65c3:0x3679678406a4e5fc!8m2!3d65.6063761!4d-20.6352441!16s%2Fm%2F011smn4h?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D)
