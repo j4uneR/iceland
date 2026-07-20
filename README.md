@@ -6,6 +6,7 @@ iceland was a nice man now im cold
 - **camping:**
 
 [map of potential sites](https://happycampers.is/resources/happy-campers-campsite-map-of-iceland/)
+[year round sites](https://www.gocampers.is/campsites-in-iceland/)
   - Day 1: 
   - Day 4: [landmannalaugar](https://vinna.fi.is/en/boka/) (closed 💀) 
 ## things to do 
