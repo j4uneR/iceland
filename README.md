@@ -3,6 +3,7 @@ iceland was a nice man now im cold
 ## links
 - [gas](https://gasvaktin.is)
 - [map of interesting locations](https://www.kukucampers.is/blog/iceland-maps)
+- [hot spings](https://www.ontheroadiary.com/free-hot-springs-in-iceland/)
 - **camping:**
 
 [map of potential sites](https://happycampers.is/resources/happy-campers-campsite-map-of-iceland/)
