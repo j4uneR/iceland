@@ -1,15 +1,15 @@
 # iceland
 iceland was a nice man now im cold
-## links
+## maps
 - [gas](https://gasvaktin.is)
-- [map of interesting locations](https://www.kukucampers.is/blog/iceland-maps)
+- [interesting locations](https://www.kukucampers.is/blog/iceland-maps)
 - [hot spings](https://www.ontheroadiary.com/free-hot-springs-in-iceland/)
-- **camping:**
+- [camping sites](https://happycampers.is/resources/happy-campers-campsite-map-of-iceland/)
+- [year round sites](https://www.gocampers.is/campsites-in-iceland/)
 
-[map of potential sites](https://happycampers.is/resources/happy-campers-campsite-map-of-iceland/)
-[year round sites](https://www.gocampers.is/campsites-in-iceland/)
-  - Day 1: 
-  - Day 4: [landmannalaugar](https://vinna.fi.is/en/boka/) (closed 💀) 
+## ressources
+- [equipment](https://www.iceland-camping-equipment.com/collections/iceland-camping-tent-rental)
+
 ## things to do 
 - goon
 
