@@ -42,3 +42,6 @@
 18h \- [kolgrafarfjörður ~ bridge](https://www.google.com/maps/place/Kolgrafarfj%C3%B6r%C3%B0ur/@64.9604763,-23.1690171,14z/data=!4m6!3m5!1s0x48d57101c02d82c7:0xb99315d315935040!8m2!3d64.9659645!4d-23.1244029!16s%2Fg%2F11c1rg38bc?entry=ttu&g_ep=EgoyMDI2MDcyMC4wIKXMDSoASAFQAw%3D%3D)
 
 19h30  \- [ravencliff ~ lodge](https://www.google.com/maps/place/Ravencliff+Lodge/@64.9784461,-21.7433687,17z/data=!3m1!4b1!4m9!3m8!1s0x48d4574d68e89e5f:0xe47864998d231f11!5m2!4m1!1i2!8m2!3d64.9784439!4d-21.7407938!16s%2Fg%2F11f778rlrm?entry=ttu&g_ep=EgoyMDI2MDcyMC4wIKXMDSoASAFQAw%3D%3D)
+
+
+
