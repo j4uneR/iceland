@@ -23,7 +23,6 @@
             margin-bottom: 20px;
         }
         .status-badge {
-            text-align: center;
             display: inline-block;
             background-color: #ffc107;
             color: #333;
@@ -53,6 +52,16 @@
             margin: 20px 0;
             border-radius: 4px;
         }
+        .map-link {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: #667eea;
+            text-decoration: none;
+        }
+        .map-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -64,10 +73,11 @@
     </div>
     
     <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m40!1m12!1m3!1d177598.4!2d-20.9!3d63.89!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m35!3e0!4m5!1s0x48d4h4h4h4h4h4h4%3A0xh4h4h4h4h4h4h4h4!2sSk%C3%B3gafoss%2C%20861%2C%20Iceland!3m4!1s0x48d4h4h4h4h4h4h4:0xh4h4h4h4h4h4h4h4!8m2!3d63.509!4d-19.034!4m5!1s0x48d4i4i4i4i4i4i4%3A0xi4i4i4i4i4i4i4i4!2sReykjadalur%20Hot%20Spring%20Thermal%20River!3m4!1s0x48d4i4i4i4i4i4i4:0xi4i4i4i4i4i4i4i4!8m2!3d63.891!4d-20.957!4m5!1s0x48d4j4j4j4j4j4j4%3A0xj4j4j4j4j4j4j4j4!2sSky%20Lagoon%2C%20Vesturv%C3%B6r%2044-48%2C%20200%20Kopavogur!3m4!1s0x48d4j4j4j4j4j4j4:0xj4j4j4j4j4j4j4j4!8m2!3d64.137!4d-21.887!5e0!3m2!1sen!2sis!4v1234567890" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDummyKeyForDemo&origin=Skógafoss,+Iceland&destination=Sky+Lagoon,+Iceland&mode=driving" allowfullscreen="" loading="lazy"></iframe>
     </div>
     
     <p><strong>Route:</strong> Skógafoss → Reykjadalur Hot Spring → Sky Lagoon</p>
+    <a href="https://www.google.com/maps/dir/Sk%C3%B3gafoss,+861,+Iceland/Reykjadalur+Hot+Spring+Thermal+River,+Reykjadalur+816,+816,+Iceland/Sky+Lagoon,+Vesturv%C3%B6r+44-48,+200+Kopavogur,+Iceland" class="map-link" target="_blank">View full route on Google Maps →</a>
     <p><a href="javascript:history.back()">← Back</a></p>
 </body>
 </html>

@@ -23,7 +23,6 @@
             margin-bottom: 20px;
         }
         .status-badge {
-            text-align: center;
             display: inline-block;
             background-color: #ffc107;
             color: #333;
@@ -53,6 +52,16 @@
             margin: 20px 0;
             border-radius: 4px;
         }
+        .map-link {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: #667eea;
+            text-decoration: none;
+        }
+        .map-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -64,10 +73,11 @@
     </div>
     
     <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m40!1m12!1m3!1d175681.2!2d-18.4!3d63.87!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m35!3e0!4m5!1s0x48d1e5e5e5e5e5e5%3A0xe5e5e5e5e5e5e5e5!2sStokksnes%2C%20Stokksnesvegur%209720%2C%20Iceland!3m4!1s0x48d1e5e5e5e5e5e5:0xe5e5e5e5e5e5e5e5!8m2!3d63.869!4d-18.404!4m5!1s0x48d2f2f2f2f2f2f2%3A0xf2f2f2f2f2f2f2f2!2sDiamond%20Beach%2C%20781%2C%20Iceland!3m4!1s0x48d2f2f2f2f2f2f2:0xf2f2f2f2f2f2f2f2!8m2!3d64.126!4d-17.485!4m5!1s0x48d3g3g3g3g3g3g3%3A0xg3g3g3g3g3g3g3g3!2sMulaj%C3%B3kull%20Canyon!3m4!1s0x48d3g3g3g3g3g3g3:0xg3g3g3g3g3g3g3g3!8m2!3d63.76!4d-18.88!5e0!3m2!1sen!2sis!4v1234567890" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDummyKeyForDemo&origin=Stokksnes,+Iceland&destination=Fjáðrárglúfur,+Iceland&mode=driving" allowfullscreen="" loading="lazy"></iframe>
     </div>
     
     <p><strong>Route:</strong> Stokksnes → Diamond Beach → Mulagljúfur Canyon → Fjáðrárglúfur</p>
+    <a href="https://www.google.com/maps/dir/Stokksnes,+Stokksnesvegur+9720,+Iceland/Diamond+Beach,+781,+Iceland/Mulagljufur+Canyon,+XGQP%2BJCH,+785,+Iceland/Fja%C3%B0r%C3%A1rglj%C3%BAfur,+881" class="map-link" target="_blank">View full route on Google Maps →</a>
     <p><a href="javascript:history.back()">← Back</a></p>
 </body>
 </html>
