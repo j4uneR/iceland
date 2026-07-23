@@ -7,4 +7,4 @@
 | :-: | :-: |
 |<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/01798672-acf5-44c6-86bd-4a3e842a11ce" /> |<img width="800" height="512" alt="image" src="https://github.com/user-attachments/assets/67a9d646-5884-40fb-953e-a7b55b25fa44" />|
 
-[*back*](day1.md)
+[*back*](../day1.md)
