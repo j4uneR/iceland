@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iceland Trip - Day 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -22,25 +24,25 @@
             font-size: 14px;
             margin-bottom: 20px;
         }
-        .map-container {
+        #map {
             width: 100%;
             height: 600px;
             margin: 20px 0;
             border-radius: 8px;
-            overflow: hidden;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
+        .info {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
         }
         .map-link {
-            display: block;
-            text-align: center;
+            display: inline-block;
             margin-top: 10px;
             color: #667eea;
             text-decoration: none;
+            font-weight: bold;
         }
         .map-link:hover {
             text-decoration: underline;
@@ -51,12 +53,41 @@
     <h1>Day 1 - Iceland Itinerary</h1>
     <div class="duration">Duration: 5h54</div>
     
-    <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDummyKeyForDemo&origin=Keflavik+International+Airport,+Iceland&destination=Landbrota,+Iceland&mode=driving" allowfullscreen="" loading="lazy"></iframe>
+    <div id="map"></div>
+    
+    <div class="info">
+        <p><strong>Route:</strong> Keflavík International Airport → Costco Wholesale Iceland → Landbrota</p>
+        <a href="https://www.google.com/maps/dir/Keflavik+International+Airport,+235+Keflavik,+Iceland/Costco+Wholesale+Iceland,+Kauptan+3,+210+Gardabaer,+Iceland/Landbrota" class="map-link" target="_blank">View full route on Google Maps →</a>
+        <p><a href="javascript:history.back()">← Back</a></p>
     </div>
     
-    <p><strong>Route:</strong> Keflavík International Airport → Costco Wholesale Iceland → Landbrota</p>
-    <a href="https://www.google.com/maps/dir/Keflav%C3%ADk+International+Airport,+235+Keflav%C3%ADk,+Iceland/Costco+Wholesale+Iceland,+Kaupt%C3%BAn+3,+210+Gar%C3%B0ab%C3%A6r,+Iceland/Landbrota" class="map-link" target="_blank">View full route on Google Maps →</a>
-    <p><a href="javascript:history.back()">← Back</a></p>
+    <script>
+        const map = L.map('map').setView([63.985, -22.044], 8);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 19
+        }).addTo(map);
+        
+        const waypoints = [
+            {lat: 63.985, lng: -22.044, label: 'Keflavik Airport'},
+            {lat: 64.084, lng: -21.895, label: 'Costco Wholesale'},
+            {lat: 64.123, lng: -21.567, label: 'Landbrota'}
+        ];
+        
+        waypoints.forEach((wp, idx) => {
+            L.circleMarker([wp.lat, wp.lng], {
+                radius: 10,
+                fillColor: '#667eea',
+                color: '#fff',
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.8
+            }).addTo(map).bindPopup(`<strong>${idx + 1}. ${wp.label}</strong>`);
+        });
+        
+        const routeCoordinates = waypoints.map(wp => [wp.lat, wp.lng]);
+        L.polyline(routeCoordinates, {color: '#667eea', weight: 3, opacity: 0.7}).addTo(map);
+    </script>
 </body>
 </html>
