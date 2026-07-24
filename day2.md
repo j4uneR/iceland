@@ -4,7 +4,7 @@
 - driving
 - drinking
 - driving
-## [backup accomodations](https://www.borgarfjordureystri.is/en/aboutborgarfjordur/accommodation)
-
+[city accomodations](https://www.borgarfjordureystri.is/en/aboutborgarfjordur/accommodation)
+[camping](https://campegilsstadir.is/opening-hours-prices/)
 
 [*back*](README.md)
