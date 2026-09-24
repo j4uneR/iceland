@@ -10,6 +10,5 @@
 
 [camping!!!](https://campegilsstadir.is/opening-hours-prices/)
 
-[camping 2](https://fjalladyrd.is/camping-in-the-winter/)
 
 [*back*](README.md)
