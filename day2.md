@@ -8,7 +8,7 @@
  
 [city accomodations](https://www.borgarfjordureystri.is/en/aboutborgarfjordur/accommodation)
 
-[camping 1](https://campegilsstadir.is/opening-hours-prices/)
+[camping!!!](https://campegilsstadir.is/opening-hours-prices/)
 
 [camping 2](https://fjalladyrd.is/camping-in-the-winter/)
 
